@@ -145,7 +145,7 @@ today = date.today()
 flaglist = ["-1"]
 
 # Your storage connection string for use with the application.
-connect_str = "DefaultEndpointsProtocol=https;AccountName=numberplatestrg;AccountKey=ASJiNQsDuzXe+DkJo2/hOu6LWl1p98siQsiqDyG3e5iBZKmoEqjlvT3Z/rQ7me/eP6qXHOmgMmrNqD1ccShd8Q==;EndpointSuffix=core.windows.net"
+connect_str = "<Your Storage Account Endpoint>"
 
 # Create the BlobServiceClient object which will be used to create a container client
 blob_service_client = BlobServiceClient.from_connection_string(connect_str)
