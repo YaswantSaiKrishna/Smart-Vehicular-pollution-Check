@@ -211,7 +211,7 @@ if poll>500 and delta.days > 10:
     "message": Message,
     "phone": str(task.ContactNo)
     }
-  url1 = "https://prod-07.southeastasia.logic.azure.com:443/workflows/9a7427f3044e49779a219b598d56b6fc/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=2jWGtSi8Uq8RXOxgEq2GDushmXWmgV8XGBhLE7mQwbo"
+  url1 = "<LogicApps HTTP Endpoint>"
   response = requests.post(url=url1, headers=custom_header, data=json.dumps(payload))
   
   
