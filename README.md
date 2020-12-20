@@ -4,3 +4,15 @@ Vehicular pollution is one of the main causes of air pollution especially in dev
 ![alt text](https://github.com/YaswantSaiKrishna/Smart-Vehicular-pollution-Check/blob/main/Images/CircuitImage.png?raw=true)
 # Azure Cloud Architecture
 ![alt text](https://github.com/YaswantSaiKrishna/Smart-Vehicular-pollution-Check/blob/main/Images/Architecture.jpeg?raw=true)
+# How to guide ?
+Step 1: Clone the repository using git clone in your raspberry pi terminal.
+
+Step 2: Make the hardware connections based on the circuit diagram.
+
+Step 3: Create azure Computer Vision, Logic apps, Blob Storage services in azure portal and copy the connection strings.
+
+Step 4: Goto https://www.customvision.ai/ and create a project and train the images of cars and copy the connection string.
+
+Step 5: Open the Scripts folder in the cloned repository and apply your connection strings wherever necessary.
+
+Step 6: Run the Main.py file.
